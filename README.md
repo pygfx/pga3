@@ -21,7 +21,7 @@ my progress (and understanding) so far.
 * Small size (once we have the algebra set up, all conversions, intersections etc. are one-liners).
 * Transformations (translation + rotations) can be composed with minimal loss of precision (in contrast to composing multiple 4x4 matrices).
 * Transformations are "linear", in that you can multiply them, e.g. to get smooth interpolation.
-* Less need for checks and exceptions: intersecting two parallel lines? Fine! The result is a point at infinity! (they call that an ideal line)
+* Less need for checks and exceptions: intersecting two parallel lines? Fine! The result is a point at infinity (a direction)!
 * No implicit design decisions like right-handed vs left-handed.
 
 
